@@ -1,0 +1,39 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+
+body {
+	background-color: #99FFFF;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 400;
+}
+
+label {
+	font-size:18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input {
+    border: 5px solid blue; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 10px 0 10px 0;
+}
