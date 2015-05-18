@@ -6,7 +6,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
 
 body {
-	background-color: #99FFFF;
+	background-color: #666666;
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 }
@@ -45,3 +45,49 @@ input {
     background: rgba(255,255,255,0.5);
     margin: 10px 0 10px 0;
 }
+
+#TodoContainer {
+  border-radius: 4px;
+  background: #ccc;
+  margin: 50px;
+}
+
+#TodoContainer header {
+  background: yellow;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#TodoContainer header h1 {
+  font-size: 20px;
+}
+
+#TodoContainer footer {
+  background: #ccc;
+  color: blue;
+  font-size: 15px;
+  padding: 20px;
+}
+
+#TodoContainer table {
+  background: white;
+  color: black;
+  font-size: 20px;
+  width: 100%;
+  padding: 4px;
+}
+
+td {
+border-bottom: solid 1px #ccc !important;
+}
+
+
+
+
+
+
+
+
+
+
